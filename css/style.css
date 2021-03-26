@@ -1,0 +1,646 @@
+/* Geralidade */
+
+html
+{
+  font-family: "Roboto", sans-serif;
+  scroll-behavior:smooth;
+}
+
+p, h1, h2, h3, h4, h5, h6
+{
+  padding-top: 0;
+  padding-bottom: 0; 
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1
+{
+  font-size: 25px;
+}
+
+.title
+{
+  font-family: "Comfortaa", sans-serif;
+  text-transform: lowercase;
+  font-size: 33px;
+}
+
+:target::before
+{
+  content: "";
+  display: block;
+  height: 130px;
+  margin: -130px 0 0;
+}
+
+.spacing
+{
+  margin-top: 24px;
+}
+
+.align
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section
+{
+  margin-bottom: 90px;
+}
+
+.last-section
+{
+  margin-bottom: 30px;
+}
+
+.section-title
+{
+  margin: 0 0 30px 0;
+}
+
+/* Menu */
+
+header
+{
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-color: #DCDCDC;
+  border-bottom-width: thin;
+}
+
+.navbar
+{
+  text-transform: uppercase;
+}
+
+.navbar-title
+{
+  font-size: 25px;
+}
+
+.logo
+{
+  height: 75px;
+}
+
+/* Sobre */
+
+#sobre-home
+{
+  background-image: linear-gradient(to bottom, #3CB371, #2D8655);
+  color: #F8F8F8;
+}
+
+#sobre-cursos
+{
+  background-image: linear-gradient(to bottom, #E64637, #AC3529);
+  color: #F8F8F8;
+}
+
+.sobre .container .row
+{
+  min-height: 500px;
+}
+
+.sobre p
+{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.main-logo
+{
+  height: 250px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sobre-texto
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sobre h2
+{
+  padding-bottom: 0;
+  border-width: 0;
+}
+
+
+/* Pesquisa */
+
+#pesquisa .section-title
+{
+  text-align: center;
+}
+
+#pesquisa img
+{
+  background-color: #3CB371;
+}
+
+#pesquisa img:hover
+{
+  background-color: #E64637;
+}
+
+/* Instituto */
+
+#instituto .section-title
+{
+  text-align: right;
+}
+
+#instituto p
+{
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 30px;
+}
+
+/* Desenvovedores */
+
+#desenvolvedores .section-title
+{
+  text-align: center;
+}
+
+.card
+{
+  border-style: none;
+}
+
+.card-img
+{
+  height: 75%;
+  width: 75%;
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+
+.card-body
+{
+  padding: 0;
+}
+
+.card-title
+{
+  text-transform: uppercase;
+  font-size: 17px;
+  font-style: bold;
+  padding: 0 0 5px 0;
+  margin: 0;
+}
+
+.card-text
+{
+  font-style: italic;
+  padding: 0 0 5px 0;
+  margin: 0;
+}
+
+.col-centered
+{
+  float: none;
+  margin: 0 auto;
+}
+
+.social-network li
+{
+  display: inline;
+}
+
+/* Footer */
+
+footer
+{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #F8F8F8;
+}
+
+.footer-home
+{
+  background-color: #3CB371;
+}
+
+.footer-cursos
+{
+  background-color: #E64637;
+}
+
+footer h6
+{
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+footer h6, footer p
+{
+  font-size: 15px;
+}
+
+footer img
+{
+  height: 100px;
+}
+
+footer a
+{
+  color: #FFFFFF;
+}
+
+footer a:hover
+{
+  color: #FFFFFF;
+}
+
+.fim 
+{
+  padding-bottom: 60px;
+}
+
+/* Cursos */
+
+.searchbar
+{
+  width: 100%;
+  border-style: solid;
+  border-color: #DCDCDC;
+  border-width: 1px;
+  border-radius: 25px;
+  padding: 10px 25px;
+  outline: 0;
+  margin-bottom: 25px;
+}
+
+.accordion .card
+{
+  margin-top: 5px;
+  border-style: none;
+  border-radius: 0;
+}
+
+.accordion .card-header
+{
+  background-color: #FDFDFD;
+  padding: 20px 50px;
+  border-style: solid;
+  border-color: #DCDCDC;
+  border-width: 1px;
+}
+
+.accordion .card-header:hover
+{
+  background-color: #F8F8F8;
+}
+
+.accordion .card-body
+{
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-top-width: 0px;
+  padding: 20px 50px;
+}
+
+.accordion .card-body ul
+{
+  padding: 0;
+}
+
+.accordion .card-body ul li
+{
+  list-style-type: square;
+  margin-bottom: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.accordion .card h5
+{
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 100%;
+  padding-bottom: 7px;
+}
+
+.card > a
+{
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.card > a:hover
+{
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+
+.btn-success
+{
+  background-color: #3CB371;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-success:hover
+{
+  background-color: #359D63;
+}
+
+.btn-danger
+{
+  background-color: #E64637;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-danger:hover
+{
+  background-color: #AC3529;
+}
+
+.em-breve
+{
+  text-align: center;
+}
+
+.em-breve img
+{
+  max-height: 600px;
+}
+
+/* Redes sociais */
+
+.social-network a.icoWebsite:hover
+{
+  background-color: #2F9E40;
+}
+
+.social-network a.icoFacebook:hover
+{
+  background-color: #1877F2;
+}
+
+.social-network a.icoGitHub:hover
+{
+  background-color: #2e2b2b;
+}
+
+.social-network a.icoInstagram:hover
+{
+  background-color: #E1306C;
+}
+
+.social-network a.icoTwitter:hover
+{
+  background-color: #1DA1F2;
+}
+
+.social-network a.icoLinkedIn:hover
+{
+  background-color: #0A66C2;
+}
+
+.social-network a.icoMail:hover
+{
+  background-color: #EA4335;
+}
+
+.social-network a.icoYouTube:hover
+{
+  background-color: #FF0000;
+}
+
+.social-network a.icoWebsite:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoGitHub:hover i,
+.social-network a.icoInstagram:hover i,
+.social-network a.icoLinkedIn:hover i,
+.social-network a.icoMail:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoYouTube:hover i
+{
+  color: #FFFFFF;
+}
+
+.social-circle li a
+{
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+}
+
+#desenvolvedores .social-circle li a
+{
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i
+{
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+#desenvolvedores .social-circle li i
+{
+  line-height: 30px;
+}
+
+.social-circle li a:hover i,
+.triggeredHover
+{
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i
+{
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a
+{
+  background-color: #F9F9F9;
+}
+
+.icones
+{
+  width: fit-content;
+  margin-left: auto;
+}
+
+.social-circle, .social-network
+{
+  padding-left: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.social-circle li, .social-network li
+{
+  margin-left: 10px;
+}
+
+.contatos-desenvolvedores
+{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* Responsividade */
+
+@media only screen and (max-width: 991px)
+{
+  .main-logo
+  {
+    margin-bottom: 0px;
+  }
+
+  #instituto .section-title
+  {
+    text-align: center;
+  }
+
+  .iframe-container
+  {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 100%;
+  }
+  
+  .responsive-iframe
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .icones
+  {
+    width: fit-content;
+    margin: 0 auto 30px auto;
+  }
+
+  .social-circle li, .social-network li
+  {
+  margin: 0 5px;
+  }
+
+  #desenvolvedores .card-margin
+  {
+    margin-top: 40px;
+  }
+
+  .card-img
+  {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 767px)
+{
+  h1 
+  {
+    font-size: 20px;
+  }
+
+  .title
+  {
+    font-size: 28px;
+  }
+
+  p 
+  {
+    font-size: 15px;
+  }
+
+  footer h6, footer p
+  {
+    font-size: 13px;
+  }
+
+  .social-circle li a
+  {
+    width: 41px;
+    height: 41px;
+    font-size: 20.5px;
+  }
+
+  .social-circle li i
+  {
+    line-height: 41px;
+  }
+}
+
+@media only screen and (max-width: 370px)
+{
+  h1 
+  {
+    font-size: 15px;
+  }
+
+  .title
+  {
+    font-size: 20px;
+  }
+
+  p 
+  {
+    font-size: 12px;
+  }
+
+  footer h6, footer p
+  {
+    font-size: 10px;
+  }
+
+  .social-circle li a
+  {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .social-circle li i
+  {
+    line-height: 30px;
+  }
+}
