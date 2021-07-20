@@ -1,4 +1,4 @@
-# chuva-de-ideias
+# **A chuva continua**: desenvolvimento de um portal de divulgação para projetos integradores
 Portal de divulgação de projetos integradores desenvolvido por mim, @chreski, e outro colega como requisito parcial para a obtenção do título de Técnico em Manutenção e Suporte em Informática pelo o Instituto Federal de Educação, Ciência e Tecnologia de Santa Catarina — IFSC.
 
 ## Resumo
